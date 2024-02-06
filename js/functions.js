@@ -29,13 +29,13 @@ document.querySelector('button').addEventListener('click', () =>{
         alert('Correct!')
         oikea_vast= oikea_vast + 1
         document.querySelector('#correct').innerHTML = oikea_vast
-        console.log(oikea_vast)
+        // console.log(oikea_vast)
     }
     else{
         alert('Incorrect!')
         vaara_vast = vaara_vast + 1
         document.querySelector('#incorrect').innerHTML = vaara_vast
-        console.log(vaara_vast)
+        // console.log(vaara_vast)
     }
 
     randomizeNumbers()
